@@ -1,0 +1,353 @@
+body{
+    margin: 0;
+}
+.header .navbar {
+    margin-bottom: 0;
+}
+.Full-slider-wrapper{
+    position: relative;
+}
+.position-on-slider{
+    position: absolute;
+    background-color: #164856;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.777;
+    bottom: 0px;
+    top: 0px;
+}
+.header .navbar-default {
+    background-color: #164856;
+    border: 0;
+    border-radius: 0;
+}
+.header .navbar-default .navbar-brand {
+    color: #ffffff;
+    font-family:cursive;
+}
+.header .navbar-default .navbar-brand:hover{
+    font-weight: bold;
+}
+.header .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: serif;
+}
+.header .navbar-default .navbar-nav > li > a:hover {
+    background-color: #ffb204;
+    color: #164856;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: #ffb204;
+    border: 0;
+}
+
+.collapse .nav{
+    float:right;
+}
+.help-option{
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #ffd028;
+}
+.help{
+    width: 100%;
+}
+.help a h2{
+    margin: 0;
+}
+.help a h2{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.number{
+    width: 35%;
+    display: inline-block;
+}
+.help-options{
+    width: 65%;
+    float: right;
+    padding-top: 10px;
+}
+h4{
+    margin: 0;
+    display: inline-block;
+    font-size: 20px;
+    color: #164856;
+    font-family:cursive;
+    font-weight: bold;
+    float: right;
+}
+.number span{
+    display: inline-block;
+    color: #dabf61;
+    font-size: 38px;
+    margin-left:5px; 
+}
+.number span span1{
+    font-size: 46px;
+}
+.Project{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.first-project{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.second-project{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+.peoject-name{
+    width: 50%;
+    height: 100%;
+    background-color: #164856;
+    float: left;
+    margin-bottom: 25px;
+}
+.project-image{
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin-bottom: 25px;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+}
+hr{
+    width: 80%;
+}
+.peoject-name h3{
+    text-align: center;
+}
+.peoject-name p{
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.stop-bulling{
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.peoject-name h3 a{
+    text-decoration: none;
+    color: white;
+}
+.peoject-name h3 a:hover{
+    color: white;
+    opacity: 0.77;
+}
+.Upcoming-events-div{
+    background-color: #ffd028;
+    padding: 50px 0;
+}
+.event{
+    width: 100%;
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.event-details{
+    width: 100%;
+}
+.upcoming-heading{
+    border-bottom: 1px solid;
+    border-bottom-color: gainsboro;
+}
+.upcoming-heading h3{
+    display: inline-block;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.upcoming-heading a{
+    margin-left: 120px;
+}
+.first-event{
+    border-bottom: 1px solid;
+    border-bottom-color: gainsboro;
+}
+.first-event a{
+    text-decoration: none;
+}
+
+.first-event a p{
+    padding-left: 20px;
+    margin-bottom: 0;
+    color: lightgray;
+}
+
+.first-event a h{
+    padding-left: 20px;
+    font-weight: bold;
+    color: #164856;
+    font-size:19px;
+}
+.first-event h:hover{
+    color: #164856;
+    opacity: 0.777;
+}
+.second-event{
+    border-bottom: 1px solid;
+    border-bottom-color: gainsboro;
+}
+.second-event a{
+    text-decoration: none;
+}
+.second-event p{
+    padding-left: 20px;
+    margin-bottom: 0;
+    color: lightgray;
+}
+.second-event h{
+    padding-left: 20px;
+    font-weight: bold;
+    color: #164856;
+    font-size:19px;
+}
+.second-event h:hover{
+    color: #164856;
+    opacity: 0.777;
+}
+.third-event{
+    border-bottom: 1px solid;
+    border-bottom-color: gainsboro;
+}
+.third-event a{
+    text-decoration: none;
+}
+.third-event p{
+    padding-left: 20px;
+    margin-bottom: 0;
+    color: lightgray;
+}
+.third-event h{
+    padding-left: 20px;
+    font-weight: bold;
+    color: #164856;
+    font-size:19px;
+}
+.third-event h:hover{
+    color: #164856;
+    opacity: 0.777;
+}
+.second-last-div{
+    background-color: white;
+    padding: 90px 0;
+}
+.event-details h{
+    color: #164856;
+    font-size: 20px;
+    font-weight: bold;
+}
+.event-details p{
+    text-align: justify;
+}
+.event-details button{
+    border-color: #164856;
+    border: 1px solid;
+}
+.event-details button:active{
+    transform: translateX(10px);
+}
+.feedback-image{
+    width: 50%;
+}
+.review{
+    width: 50%;
+    float: right;
+}
+.feedback h{
+    color: #164856;
+    font-size: 19px;
+    font-weight: bold; 
+    display: block;
+}
+.feedback img{
+    
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.feedback p{
+    float: right;
+    left: 0;
+}
+.float-clear{
+    content: "";
+    clear: both;
+}
+.email-box h{
+    color: #164856;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.sign-up .donate-now{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #164856;
+}
+.footer img{
+    width: 100%;
+}
+.footer{
+    position: relative;
+}
+.footer-position-div{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    opacity: 0.77;
+    background-color: #164856;
+    height: 100%;
+}
+.col-md-2 ul li h5{
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.col-md-2 ul{
+    list-style: none;
+}
+.col-md-2 ul li a{
+    color: white;
+    font-size: 12px;
+    opacity: 0.8;
+    text-decoration: none;
+    line-height: 2;
+}
+.col-md-4 h{
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.col-md-4 p{
+    color: white;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.col-md-4 i{
+    color: white;
+    font-size: 16px;
+}
